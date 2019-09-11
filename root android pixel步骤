@@ -1,0 +1,28 @@
+root android pixel步骤
+
+1、去官方网站下载想要刷机的版本。
+https://developers.google.com/android/images#taimen
+根据右侧找到对应手机的rom
+(我手里这台是pixel xl 2，下载的是taimen-opm2.171026.006.h1)
+
+2、adb reboot bootloader
+进入BootLoader准备刷机，到下载解压后的目录 执行flash-all.sh即可
+
+刷机完成后做如下操作
+
+3、去twrp官网下载相应手机的版本。
+https://twrp.me/
+
+4、去magisk下载最新的zip包
+https://magisk.me/zip/
+
+5、把下载下来的magisk.zip push到手机/sdcard/下面
+
+
+6、adb reboot bootloader
+进入bootloader 准备刷twrp
+
+fastboot boot /Users/walter/Downloads/twrp-3.3.0-0-taimen.img
+
+在界面中选择install安装之前push到手机里面的magisk.zip，然后重启手机即可。
+
