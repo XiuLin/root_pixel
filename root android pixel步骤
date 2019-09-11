@@ -7,11 +7,20 @@ https://developers.google.com/android/images#taimen
 
 2、adb reboot bootloader
 进入BootLoader准备刷机，到下载解压后的目录 执行flash-all.sh即可
+--taimen-opm2.171026.006.h1
+---bootloader-taimen-tmz12g.img
+---flash-all.bat
+---flash-all.sh
+---flash-base.sh
+---image-taimen-opm2.171026.006.h1.zip
+---radio-taimen-g8998-00202-1802061358.img
 
 刷机完成后做如下操作
 
 3、去twrp官网下载相应手机的版本。
 https://twrp.me/
+
+https://eu.dl.twrp.me/taimen/twrp-3.3.0-0-taimen.img
 
 4、去magisk下载最新的zip包
 https://magisk.me/zip/
