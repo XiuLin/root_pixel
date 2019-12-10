@@ -35,3 +35,5 @@ fastboot boot /Users/walter/Downloads/twrp-3.3.0-0-taimen.img
 
 在界面中选择install安装之前push到手机里面的magisk.zip，然后重启手机即可。
 
+7、自行按照magisk所需插件
+比如props 或者https://forum.xda-developers.com/showthread.php?t=2239421
