@@ -41,3 +41,5 @@ https://forum.xda-developers.com/apps/magisk/module-magiskhide-props-config-t378
 
 8、安装Xposed步骤，需要在custom BootLoader 如twrp中刷入对应的Xposed frameword，然后再在安装XposedInstaller
 https://forum.xda-developers.com/showthread.php?t=3034811
+
+9、修改debug 让release也可以调试
