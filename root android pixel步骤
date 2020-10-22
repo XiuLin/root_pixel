@@ -4,6 +4,9 @@ root android pixel步骤
 adb reboot bootloader
 然后
 fastboot oem unlock
+如果是pixel 3、4需要：
+fastboot flashing unlock
+
 才能解锁
 
 1、去官方网站下载想要刷机的版本。（注意最高刷到8.1不然root麻烦！！！！！）
